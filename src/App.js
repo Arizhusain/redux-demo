@@ -1,12 +1,11 @@
-import './App.css';
-import Profile from './components/Profile';
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     <Profile/>
+    <div>
+      <h1>hello</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
